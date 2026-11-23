@@ -1,6 +1,6 @@
 # TA-LSTMAE — Reproducibility Repository
 
-Code accompanying the manuscript **"Enhancing Temporal Precision of MTTD and MTTR Metrics: A Hybrid LSTM-Autoencoder Framework for Log Sequence Analysis in SIEM Platforms"** (Y. Ariyanto, Y. W. Syaifudin, P. Y. Saputra, C. Setiadi, T. Fatmawati; submitted to the *International Journal of Intelligent Engineering and Systems*).
+Code accompanying the manuscript **"A Hybrid LSTM-Autoencoder Framework with Causal MTTD and Projected MTTR Evaluation for SIEM-Oriented Intrusion Detection"** (Y. Ariyanto, Y. W. Syaifudin, P. Y. Saputra, C. Setiadi, T. Fatmawati; submitted to the *International Journal of Intelligent Engineering and Systems*).
 
 The repository regenerates every quantity reported in the paper from the official benchmark files. It also contains the experiments added in response to the second review round:
 
