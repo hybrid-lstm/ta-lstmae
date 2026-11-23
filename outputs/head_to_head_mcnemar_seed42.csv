@@ -1,0 +1,13 @@
+dataset,model_b,mcnemar_p
+nsl_kdd,TA-LSTMAE causal (TAE + unidirectional LSTM),1.6835594875413208e-65
+nsl_kdd,TA-LSTMAE simplified (TAE + CNN only),0.6435130834433369
+nsl_kdd,HAE-HRL (re-implemented),4.2391259706595855e-14
+nsl_kdd,ADFCNN-BiLSTM (re-implemented),4.570940587703331e-65
+unsw_nb15,TA-LSTMAE causal (TAE + unidirectional LSTM),2.4163893768696597e-108
+unsw_nb15,TA-LSTMAE simplified (TAE + CNN only),9.848014201084698e-18
+unsw_nb15,HAE-HRL (re-implemented),2.6835119728600906e-303
+unsw_nb15,ADFCNN-BiLSTM (re-implemented),1.9032422829064704e-17
+cicids2018,TA-LSTMAE causal (TAE + unidirectional LSTM),6.960169412195683e-05
+cicids2018,TA-LSTMAE simplified (TAE + CNN only),0.37415171240479483
+cicids2018,HAE-HRL (re-implemented),1.0
+cicids2018,ADFCNN-BiLSTM (re-implemented),4.4337048166198656e-07

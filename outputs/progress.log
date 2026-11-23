@@ -1,0 +1,162 @@
+[2026-11-09 22:41:12] [1/63] nsl_kdd seed=42 No Feature Selection + HBLT: F1=0.7770 MTTD_causal=0.0668s
+[2026-11-09 22:45:00] [2/63] nsl_kdd seed=42 TAE + LSTM (unidirectional): F1=0.7793 MTTD_causal=0.0676s
+[2026-11-09 22:47:03] [3/63] nsl_kdd seed=42 TAE + CNN only: F1=0.7672 MTTD_causal=0.0729s
+[2026-11-09 22:50:00] [4/63] nsl_kdd seed=42 TAE + BiLSTM only: F1=0.7410 MTTD_causal=0.0790s
+[2026-11-09 22:52:50] [5/63] nsl_kdd seed=42 TAE + Transformer only: F1=0.4770 MTTD_causal=0.1009s
+[2026-11-09 22:57:39] [6/63] nsl_kdd seed=42 TAE + HBLT (Full Proposed): F1=0.7767 MTTD_causal=0.0659s
+[2026-11-09 22:59:51] [7/63] nsl_kdd seed=42 Causal-only (unidirectional LSTM): F1=0.7643 MTTD_causal=0.0691s
+[2026-11-09 23:06:03] [8/63] nsl_kdd seed=43 No Feature Selection + HBLT: F1=0.7850 MTTD_causal=0.0652s
+[2026-11-09 23:10:06] [9/63] nsl_kdd seed=43 TAE + LSTM (unidirectional): F1=0.7787 MTTD_causal=0.0672s
+[2026-11-09 23:12:17] [10/63] nsl_kdd seed=43 TAE + CNN only: F1=0.7644 MTTD_causal=0.0711s
+[2026-11-09 23:14:56] [11/63] nsl_kdd seed=43 TAE + BiLSTM only: F1=0.7430 MTTD_causal=0.0777s
+[2026-11-09 23:17:44] [12/63] nsl_kdd seed=43 TAE + Transformer only: F1=0.4095 MTTD_causal=0.1139s
+[2026-11-09 23:22:03] [13/63] nsl_kdd seed=43 TAE + HBLT (Full Proposed): F1=0.7775 MTTD_causal=0.0687s
+[2026-11-09 23:24:16] [14/63] nsl_kdd seed=43 Causal-only (unidirectional LSTM): F1=0.7290 MTTD_causal=0.0822s
+[2026-11-09 23:30:28] [15/63] nsl_kdd seed=44 No Feature Selection + HBLT: F1=0.7742 MTTD_causal=0.0704s
+[2026-11-09 23:34:07] [16/63] nsl_kdd seed=44 TAE + LSTM (unidirectional): F1=0.7869 MTTD_causal=0.0631s
+[2026-11-09 23:36:13] [17/63] nsl_kdd seed=44 TAE + CNN only: F1=0.7864 MTTD_causal=0.0688s
+[2026-11-09 23:38:49] [18/63] nsl_kdd seed=44 TAE + BiLSTM only: F1=0.7545 MTTD_causal=0.0737s
+[2026-11-09 23:41:55] [19/63] nsl_kdd seed=44 TAE + Transformer only: F1=0.4264 MTTD_causal=0.1122s
+[2026-11-09 23:46:36] [20/63] nsl_kdd seed=44 TAE + HBLT (Full Proposed): F1=0.7662 MTTD_causal=0.0747s
+[2026-11-09 23:48:38] [21/63] nsl_kdd seed=44 Causal-only (unidirectional LSTM): F1=0.7688 MTTD_causal=0.0739s
+[2026-11-09 23:58:34] [22/63] unsw_nb15 seed=42 No Feature Selection + HBLT: F1=0.8992 MTTD_causal=0.0156s
+[2026-11-10 00:03:20] [23/63] unsw_nb15 seed=42 TAE + LSTM (unidirectional): F1=0.8732 MTTD_causal=0.0117s
+[2026-11-10 00:06:17] [24/63] unsw_nb15 seed=42 TAE + CNN only: F1=0.8724 MTTD_causal=0.0121s
+[2026-11-10 00:09:48] [25/63] unsw_nb15 seed=42 TAE + BiLSTM only: F1=0.8740 MTTD_causal=0.0144s
+[2026-11-10 00:13:35] [26/63] unsw_nb15 seed=42 TAE + Transformer only: F1=0.5981 MTTD_causal=0.0748s
+[2026-11-10 00:19:09] [27/63] unsw_nb15 seed=42 TAE + HBLT (Full Proposed): F1=0.8729 MTTD_causal=0.0110s
+[2026-11-10 00:22:01] [28/63] unsw_nb15 seed=42 Causal-only (unidirectional LSTM): F1=0.8618 MTTD_causal=0.0085s
+[2026-11-10 00:31:30] [29/63] unsw_nb15 seed=43 No Feature Selection + HBLT: F1=0.8857 MTTD_causal=0.0098s
+[2026-11-10 00:36:09] [30/63] unsw_nb15 seed=43 TAE + LSTM (unidirectional): F1=0.8750 MTTD_causal=0.0121s
+[2026-11-10 00:39:05] [31/63] unsw_nb15 seed=43 TAE + CNN only: F1=0.8759 MTTD_causal=0.0122s
+[2026-11-10 00:43:09] [32/63] unsw_nb15 seed=43 TAE + BiLSTM only: F1=0.8762 MTTD_causal=0.0199s
+[2026-11-10 00:47:04] [33/63] unsw_nb15 seed=43 TAE + Transformer only: F1=0.5699 MTTD_causal=0.0831s
+[2026-11-10 00:52:53] [34/63] unsw_nb15 seed=43 TAE + HBLT (Full Proposed): F1=0.8746 MTTD_causal=0.0126s
+[2026-11-10 00:55:52] [35/63] unsw_nb15 seed=43 Causal-only (unidirectional LSTM): F1=0.8650 MTTD_causal=0.0130s
+[2026-11-10 01:04:42] [36/63] unsw_nb15 seed=44 No Feature Selection + HBLT: F1=0.8971 MTTD_causal=0.0139s
+[2026-11-10 01:09:20] [37/63] unsw_nb15 seed=44 TAE + LSTM (unidirectional): F1=0.8773 MTTD_causal=0.0130s
+[2026-11-10 01:12:15] [38/63] unsw_nb15 seed=44 TAE + CNN only: F1=0.8812 MTTD_causal=0.0161s
+[2026-11-10 01:16:11] [39/63] unsw_nb15 seed=44 TAE + BiLSTM only: F1=0.8604 MTTD_causal=0.0030s
+[2026-11-10 01:19:56] [40/63] unsw_nb15 seed=44 TAE + Transformer only: F1=0.5733 MTTD_causal=0.0826s
+[2026-11-10 01:25:42] [41/63] unsw_nb15 seed=44 TAE + HBLT (Full Proposed): F1=0.8745 MTTD_causal=0.0136s
+[2026-11-10 01:28:44] [42/63] unsw_nb15 seed=44 Causal-only (unidirectional LSTM): F1=0.8549 MTTD_causal=0.0270s
+[2026-11-10 01:37:26] [1/21] cicids2018 seed=42 No Feature Selection + HBLT: F1=0.9995 MTTD_causal=0.0000s
+[2026-11-10 01:41:03] [2/21] cicids2018 seed=42 TAE + LSTM (unidirectional): F1=0.9998 MTTD_causal=0.0000s
+[2026-11-10 01:43:01] [3/21] cicids2018 seed=42 TAE + CNN only: F1=0.9994 MTTD_causal=0.0000s
+[2026-11-10 01:45:28] [4/21] cicids2018 seed=42 TAE + BiLSTM only: F1=0.9998 MTTD_causal=0.0000s
+[2026-11-10 01:48:07] [5/21] cicids2018 seed=42 TAE + Transformer only: F1=0.7274 MTTD_causal=0.0062s
+[2026-11-10 01:52:22] [6/21] cicids2018 seed=42 TAE + HBLT (Full Proposed): F1=0.9997 MTTD_causal=0.0000s
+[2026-11-10 01:54:40] [7/21] cicids2018 seed=42 Causal-only (unidirectional LSTM): F1=0.9996 MTTD_causal=0.0000s
+[2026-11-10 02:00:43] [8/21] cicids2018 seed=43 No Feature Selection + HBLT: F1=0.9895 MTTD_causal=0.0000s
+[2026-11-10 02:04:18] [9/21] cicids2018 seed=43 TAE + LSTM (unidirectional): F1=0.9998 MTTD_causal=0.0000s
+[2026-11-10 02:06:21] [10/21] cicids2018 seed=43 TAE + CNN only: F1=0.9995 MTTD_causal=0.0000s
+[2026-11-10 02:08:46] [11/21] cicids2018 seed=43 TAE + BiLSTM only: F1=0.9996 MTTD_causal=0.0000s
+[2026-11-10 02:11:26] [12/21] cicids2018 seed=43 TAE + Transformer only: F1=0.7291 MTTD_causal=0.0041s
+[2026-11-10 02:15:55] [13/21] cicids2018 seed=43 TAE + HBLT (Full Proposed): F1=0.9999 MTTD_causal=0.0000s
+[2026-11-10 02:18:03] [14/21] cicids2018 seed=43 Causal-only (unidirectional LSTM): F1=0.9993 MTTD_causal=0.0002s
+[2026-11-10 02:24:01] [15/21] cicids2018 seed=44 No Feature Selection + HBLT: F1=0.9998 MTTD_causal=0.0000s
+[2026-11-10 02:27:44] [16/21] cicids2018 seed=44 TAE + LSTM (unidirectional): F1=0.9991 MTTD_causal=0.0000s
+[2026-11-10 02:29:48] [17/21] cicids2018 seed=44 TAE + CNN only: F1=0.9996 MTTD_causal=0.0000s
+[2026-11-10 02:32:21] [18/21] cicids2018 seed=44 TAE + BiLSTM only: F1=0.9998 MTTD_causal=0.0000s
+[2026-11-10 02:35:09] [19/21] cicids2018 seed=44 TAE + Transformer only: F1=0.7309 MTTD_causal=0.0013s
+[2026-11-10 02:39:17] [20/21] cicids2018 seed=44 TAE + HBLT (Full Proposed): F1=0.9992 MTTD_causal=0.0000s
+[2026-11-10 02:41:24] [21/21] cicids2018 seed=44 Causal-only (unidirectional LSTM): F1=0.9998 MTTD_causal=0.0000s
+[2026-11-10 02:41:55] nsl_kdd seed=42: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] nsl_kdd seed=43: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] nsl_kdd seed=44: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] unsw_nb15 seed=42: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] unsw_nb15 seed=43: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] unsw_nb15 seed=44: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] cicids2018 seed=42: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] cicids2018 seed=43: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:41:55] cicids2018 seed=44: all ablation configurations already done, skipped (resume)
+[2026-11-10 02:49:17] [1/15] nsl_kdd seed=42 TA-LSTMAE (TAE + HBLT, full): Acc=0.7846 F1=0.7803 MTTD_causal=0.0661s (437s)
+[2026-11-10 02:52:34] [2/15] nsl_kdd seed=42 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.7571 F1=0.7475 MTTD_causal=0.0759s (197s)
+[2026-11-10 02:55:42] [3/15] nsl_kdd seed=42 TA-LSTMAE simplified (TAE + CNN only): Acc=0.7840 F1=0.7787 MTTD_causal=0.0674s (188s)
+[2026-11-10 03:03:10] [4/15] nsl_kdd seed=42 HAE-HRL (re-implemented): Acc=0.7992 F1=0.7917 MTTD_causal=0.0662s (447s)
+[2026-11-10 03:20:01] [5/15] nsl_kdd seed=42 ADFCNN-BiLSTM (re-implemented): Acc=0.7500 F1=0.7383 MTTD_causal=0.0795s (1011s)
+[2026-11-10 03:28:03] [6/15] nsl_kdd seed=43 TA-LSTMAE (TAE + HBLT, full): Acc=0.7835 F1=0.7744 MTTD_causal=0.0717s (482s)
+[2026-11-10 03:31:19] [7/15] nsl_kdd seed=43 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.7381 F1=0.7218 MTTD_causal=0.0844s (195s)
+[2026-11-10 03:34:32] [8/15] nsl_kdd seed=43 TA-LSTMAE simplified (TAE + CNN only): Acc=0.7678 F1=0.7614 MTTD_causal=0.0722s (192s)
+[2026-11-10 03:45:00] [9/15] nsl_kdd seed=43 HAE-HRL (re-implemented): Acc=0.7830 F1=0.7844 MTTD_causal=0.0620s (628s)
+[2026-11-10 03:59:14] [10/15] nsl_kdd seed=43 ADFCNN-BiLSTM (re-implemented): Acc=0.7572 F1=0.7411 MTTD_causal=0.0814s (853s)
+[2026-11-10 04:06:52] [11/15] nsl_kdd seed=44 TA-LSTMAE (TAE + HBLT, full): Acc=0.7789 F1=0.7722 MTTD_causal=0.0694s (458s)
+[2026-11-10 04:10:00] [12/15] nsl_kdd seed=44 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.7741 F1=0.7609 MTTD_causal=0.0754s (187s)
+[2026-11-10 04:13:01] [13/15] nsl_kdd seed=44 TA-LSTMAE simplified (TAE + CNN only): Acc=0.7957 F1=0.7906 MTTD_causal=0.0650s (180s)
+[2026-11-10 04:24:27] [14/15] nsl_kdd seed=44 HAE-HRL (re-implemented): Acc=0.7809 F1=0.7767 MTTD_causal=0.0667s (685s)
+[2026-11-10 04:39:58] [15/15] nsl_kdd seed=44 ADFCNN-BiLSTM (re-implemented): Acc=0.7416 F1=0.7243 MTTD_causal=0.0854s (930s)
+[2026-11-10 04:48:31] [1/15] unsw_nb15 seed=42 TA-LSTMAE (TAE + HBLT, full): Acc=0.8594 F1=0.8774 MTTD_causal=0.0157s (503s)
+[2026-11-10 04:52:03] [2/15] unsw_nb15 seed=42 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.8365 F1=0.8649 MTTD_causal=0.0093s (212s)
+[2026-11-10 04:55:17] [3/15] unsw_nb15 seed=42 TA-LSTMAE simplified (TAE + CNN only): Acc=0.8664 F1=0.8790 MTTD_causal=0.0222s (194s)
+[2026-11-10 05:11:54] [4/15] unsw_nb15 seed=42 HAE-HRL (re-implemented): Acc=0.8109 F1=0.8529 MTTD_causal=0.0008s (996s)
+[2026-11-10 05:46:10] [5/15] unsw_nb15 seed=42 ADFCNN-BiLSTM (re-implemented): Acc=0.8696 F1=0.8927 MTTD_causal=0.0026s (2056s)
+[2026-11-10 05:54:59] [6/15] unsw_nb15 seed=43 TA-LSTMAE (TAE + HBLT, full): Acc=0.8614 F1=0.8801 MTTD_causal=0.0140s (529s)
+[2026-11-10 05:58:14] [7/15] unsw_nb15 seed=43 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.8436 F1=0.8659 MTTD_causal=0.0147s (194s)
+[2026-11-10 06:01:26] [8/15] unsw_nb15 seed=43 TA-LSTMAE simplified (TAE + CNN only): Acc=0.8480 F1=0.8723 MTTD_causal=0.0105s (191s)
+[2026-11-10 06:17:35] [9/15] unsw_nb15 seed=43 HAE-HRL (re-implemented): Acc=0.8119 F1=0.8537 MTTD_causal=0.0005s (968s)
+[2026-11-10 06:46:43] [10/15] unsw_nb15 seed=43 ADFCNN-BiLSTM (re-implemented): Acc=0.8776 F1=0.8982 MTTD_causal=0.0032s (1748s)
+[2026-11-10 06:54:46] [11/15] unsw_nb15 seed=44 TA-LSTMAE (TAE + HBLT, full): Acc=0.8442 F1=0.8698 MTTD_causal=0.0099s (482s)
+[2026-11-10 06:58:02] [12/15] unsw_nb15 seed=44 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.8154 F1=0.8553 MTTD_causal=0.0017s (195s)
+[2026-11-10 07:01:19] [13/15] unsw_nb15 seed=44 TA-LSTMAE simplified (TAE + CNN only): Acc=0.8639 F1=0.8809 MTTD_causal=0.0159s (196s)
+[2026-11-10 07:18:17] [14/15] unsw_nb15 seed=44 HAE-HRL (re-implemented): Acc=0.7558 F1=0.8159 MTTD_causal=0.0026s (1017s)
+[2026-11-10 07:46:36] [15/15] unsw_nb15 seed=44 ADFCNN-BiLSTM (re-implemented): Acc=0.8900 F1=0.9069 MTTD_causal=0.0047s (1698s)
+[2026-11-10 07:50:51] [1/15] cicids2018 seed=42 TA-LSTMAE (TAE + HBLT, full): Acc=0.9992 F1=0.9991 MTTD_causal=0.0000s (234s)
+[2026-11-10 07:52:06] [2/15] cicids2018 seed=42 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.9997 F1=0.9996 MTTD_causal=0.0000s (75s)
+[2026-11-10 07:53:20] [3/15] cicids2018 seed=42 TA-LSTMAE simplified (TAE + CNN only): Acc=0.9994 F1=0.9993 MTTD_causal=0.0000s (73s)
+[2026-11-10 07:57:56] [4/15] cicids2018 seed=42 HAE-HRL (re-implemented): Acc=0.9992 F1=0.9991 MTTD_causal=0.0000s (276s)
+[2026-11-10 08:07:30] [5/15] cicids2018 seed=42 ADFCNN-BiLSTM (re-implemented): Acc=0.9998 F1=0.9998 MTTD_causal=0.0000s (574s)
+[2026-11-10 08:11:30] [6/15] cicids2018 seed=43 TA-LSTMAE (TAE + HBLT, full): Acc=0.9998 F1=0.9998 MTTD_causal=0.0000s (239s)
+[2026-11-10 08:12:54] [7/15] cicids2018 seed=43 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.9991 F1=0.9989 MTTD_causal=0.0001s (84s)
+[2026-11-10 08:14:01] [8/15] cicids2018 seed=43 TA-LSTMAE simplified (TAE + CNN only): Acc=0.9994 F1=0.9992 MTTD_causal=0.0000s (66s)
+[2026-11-10 08:19:08] [9/15] cicids2018 seed=43 HAE-HRL (re-implemented): Acc=0.9997 F1=0.9996 MTTD_causal=0.0000s (307s)
+[2026-11-10 08:28:07] [10/15] cicids2018 seed=43 ADFCNN-BiLSTM (re-implemented): Acc=0.9999 F1=0.9999 MTTD_causal=0.0000s (538s)
+[2026-11-10 08:31:56] [11/15] cicids2018 seed=44 TA-LSTMAE (TAE + HBLT, full): Acc=0.9997 F1=0.9996 MTTD_causal=0.0000s (228s)
+[2026-11-10 08:33:03] [12/15] cicids2018 seed=44 TA-LSTMAE causal (TAE + unidirectional LSTM): Acc=0.9981 F1=0.9978 MTTD_causal=0.0000s (67s)
+[2026-11-10 08:34:12] [13/15] cicids2018 seed=44 TA-LSTMAE simplified (TAE + CNN only): Acc=0.9992 F1=0.9991 MTTD_causal=0.0000s (68s)
+[2026-11-10 08:38:45] [14/15] cicids2018 seed=44 HAE-HRL (re-implemented): Acc=0.9998 F1=0.9998 MTTD_causal=0.0000s (273s)
+[2026-11-10 08:45:51] [15/15] cicids2018 seed=44 ADFCNN-BiLSTM (re-implemented): Acc=0.9999 F1=0.9999 MTTD_causal=0.0000s (425s)
+[2026-11-10 08:46:09] [1/45] nsl_kdd seed=42 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:09] [2/45] nsl_kdd seed=42 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:09] [3/45] nsl_kdd seed=42 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:09] [4/45] nsl_kdd seed=42 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:09] [5/45] nsl_kdd seed=42 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:09] [6/45] nsl_kdd seed=43 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:09] [7/45] nsl_kdd seed=43 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:09] [8/45] nsl_kdd seed=43 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:09] [9/45] nsl_kdd seed=43 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [10/45] nsl_kdd seed=43 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [11/45] nsl_kdd seed=44 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [12/45] nsl_kdd seed=44 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [13/45] nsl_kdd seed=44 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [14/45] nsl_kdd seed=44 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [15/45] nsl_kdd seed=44 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [16/45] unsw_nb15 seed=42 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [17/45] unsw_nb15 seed=42 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [18/45] unsw_nb15 seed=42 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [19/45] unsw_nb15 seed=42 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [20/45] unsw_nb15 seed=42 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [21/45] unsw_nb15 seed=43 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [22/45] unsw_nb15 seed=43 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [23/45] unsw_nb15 seed=43 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [24/45] unsw_nb15 seed=43 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [25/45] unsw_nb15 seed=43 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [26/45] unsw_nb15 seed=44 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [27/45] unsw_nb15 seed=44 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [28/45] unsw_nb15 seed=44 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [29/45] unsw_nb15 seed=44 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [30/45] unsw_nb15 seed=44 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [31/45] cicids2018 seed=42 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [32/45] cicids2018 seed=42 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [33/45] cicids2018 seed=42 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [34/45] cicids2018 seed=42 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [35/45] cicids2018 seed=42 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [36/45] cicids2018 seed=43 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [37/45] cicids2018 seed=43 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [38/45] cicids2018 seed=43 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [39/45] cicids2018 seed=43 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [40/45] cicids2018 seed=43 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [41/45] cicids2018 seed=44 TA-LSTMAE (TAE + HBLT, full): already done, skipped (resume)
+[2026-11-10 08:46:10] [42/45] cicids2018 seed=44 TA-LSTMAE causal (TAE + unidirectional LSTM): already done, skipped (resume)
+[2026-11-10 08:46:10] [43/45] cicids2018 seed=44 TA-LSTMAE simplified (TAE + CNN only): already done, skipped (resume)
+[2026-11-10 08:46:10] [44/45] cicids2018 seed=44 HAE-HRL (re-implemented): already done, skipped (resume)
+[2026-11-10 08:46:10] [45/45] cicids2018 seed=44 ADFCNN-BiLSTM (re-implemented): already done, skipped (resume)

@@ -1,0 +1,52 @@
+{
+  "data_dir": "data",
+  "out_dir": "outputs",
+  "smoke_test": false,
+  "datasets": [
+    "nsl_kdd",
+    "unsw_nb15",
+    "cicids2018"
+  ],
+  "seed": 42,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "ts_seeds": {
+    "nsl_kdd": 1001,
+    "unsw_nb15": 1002
+  },
+  "deterministic_ops": false,
+  "val_fraction": 0.1,
+  "cic_test_fraction": 0.3,
+  "cic_subsample": 6,
+  "seq_len": 10,
+  "mean_interarrival": 0.1,
+  "unsw_shuffle_seed": 2024,
+  "ts_resolution_s": {
+    "nsl_kdd": null,
+    "unsw_nb15": 1.0,
+    "cicids2018": 1.0
+  },
+  "latent_dim": {
+    "nsl_kdd": 16,
+    "unsw_nb15": 23,
+    "cicids2018": 16
+  },
+  "tae_epochs": 10,
+  "hblt_epochs": {
+    "nsl_kdd": 12,
+    "unsw_nb15": 9,
+    "cicids2018": 5
+  },
+  "ablation_epochs": 8,
+  "batch_size": 512,
+  "lr": 0.001,
+  "dropout": 0.2,
+  "threshold": 0.5,
+  "baseline_max_epochs": 50,
+  "baseline_patience": 5,
+  "match_tolerance": 5,
+  "t_response_s": 30.0
+}
