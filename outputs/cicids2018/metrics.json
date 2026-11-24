@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.9992369179114443,
+  "precision": 0.9995940643182536,
+  "recall": 0.9986031631595548,
+  "f1": 0.9990983680461636,
+  "TN": 30217,
+  "FP": 9,
+  "FN": 31,
+  "TP": 22162,
+  "n": 52419,
+  "MTTD_causal": 0.0,
+  "pMTTR_causal": 30.0,
+  "MTTD_symmetric": 0.0,
+  "APR": 0.9995940643182536,
+  "DetectionRate_causal": 1.0,
+  "DetectionRate_symmetric": 1.0
+}
