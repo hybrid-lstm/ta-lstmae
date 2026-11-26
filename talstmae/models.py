@@ -5,12 +5,15 @@ Table 2 (TAE) and Section 4.6 (CNN only 28,833; Transformer only 81,089;
 BiLSTM only 104,001; LSTM-unidirectional fusion 128,033; full HBLT 179,617;
 No Feature Selection 261,025 / 227,233).
 
-Reconstruction notes (verify against the original implementation):
-* The decoder input projection Dense(64)+Reshape(4x16) is not listed in Table 2;
-  it is the parameter-minimal way to give the decoder BiGRU the 16-d input its
-  reported 9,600 parameters imply on every dataset.
-* The fusion-head layout and the BatchNorm in the CNN branch are not spelled out
-  in Section 3.3; they were chosen so that all reported counts match.
+Implementation notes:
+* The decoder input projection Dense(64)+Reshape(4x16), which is not listed in
+  Table 2, gives the decoder BiGRU the 16-d input that its 9,600 parameters
+  imply on every dataset.
+* The gated-fusion head and the BatchNorm in the CNN branch are implementation
+  details that Section 3.3 does not spell out; all parameter counts match the
+  manuscript.
+
+
 """
 from __future__ import annotations
 
@@ -61,7 +64,7 @@ def transformer_block(x, ff_dim: int, name: str, dropout: float):
     return L.LayerNormalization(name=f"{name}_ln2")(L.Add()([x, L.Dropout(dropout)(f)]))
 
 
-CONFIGS = {  # Table 7 rows + the genuinely causal model of Section 4.6
+CONFIGS = {  # Table 6 rows + the genuinely causal model of Section 4.6
     "No Feature Selection + HBLT": dict(branches=("bilstm", "transformer", "cnn"), raw_input=True),
     "TAE + LSTM (unidirectional)": dict(branches=("lstm", "transformer", "cnn")),
     "TAE + CNN only": dict(branches=("cnn",)),
